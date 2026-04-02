@@ -1,1 +1,1 @@
-console.log("Hello GIT !")
+console.log("Hello GIT Welcome to Practice session on GIT and GITHUB!")
