@@ -17,8 +17,11 @@ git restore --staged filename --> removes the particular file from the staging a
 
 git reset --> moves all the staged files to unstaged state, similar to git restore 
 
-Now the thing is that  
+no the main difference between git restore and git reset is :
+git reset is an older command 
+git restore is new and used mostly these days 
+
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
 
-origin refers to the link of the remote repo
+origin refers to the link of the remote repo 
