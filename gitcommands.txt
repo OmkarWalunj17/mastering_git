@@ -1,27 +1,59 @@
-git --version --> checks the current version of git
+git --version 
+--> checks the current version of git
 
-git config --global user.name "Your Name"  -->  configures your name 
-git config --global user.email "your@email.com" --> configures your email
+git config --global user.name "Your Name"  
+-->  configures your name
 
-git init --> intializes a local repo into a folder (.git folder is created)
+git config --global user.email "your@email.com" 
+--> configures your email
 
-git status --> tracks changes of the local repo i.e shows which files are untracked, modified or staged
+git init 
+--> intializes a local repo into a folder (.git folder is created)
 
-git add . --> selects all the files of the current folder to include in the next commit
-git add file name --> selects the particular file to include in the next commit 
+git status 
+--> tracks changes of the local repo i.e shows which files are untracked, modified or staged
 
-git commit -m "Message"  --> actually saves a snapshot of the staged changes or creates a checkpoint which can be visited again using git checkout in case something goes wrong.
+git add . 
+--> selects all the files of the current folder to include in the next commit
 
-git restore --staged . --> removes all the files from the staging area
-git restore --staged filename --> removes the particular file from the staging area 
+git add file name 
+--> selects the particular file to include in the next commit 
 
-git reset --> moves all the staged files to unstaged state, similar to git restore 
+git commit -m "Message"
+--> actually saves a snapshot of the staged changes or creates a checkpoint which can be visited again using git checkout in case something goes wrong.
 
-git reset <commit-hash> --> removes all the commits after this commit, basically time travel to this commit.
+git restore --staged . 
+--> removes all the files from the staging area
+
+git restore --staged filename 
+--> removes the particular file from the staging area 
+
+git reset 
+--> moves all the staged files to unstaged state, similar to git restore 
+
+git reset <commit-hash> 
+--> removes all the commits after this commit, basically time travel to this commit.
+
+commit-hash : a unique identifier SHA for each commit used to track history precisely
 
 no the main difference between git restore and git reset is :
 git reset is an older command 
 git restore is new and used mostly these days
+
+git log 
+--> returns the entire  commit history 
+
+git log --oneline 
+--> returns compact git history only hash and message
+
+git checkout <hash> 
+--> moves your project to a previous snapshot in read-only mode
+
+DETACHED HEAD Concept :
+You can make changes and commits but they are not attached to any branch, so they can be lost easily.
+
+So, the ideal way is to create a new branch and commit the changes there. 
+
 
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main

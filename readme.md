@@ -1,1 +1,1 @@
-## Hello GIT
+## This repo serves as my GIT notebook
