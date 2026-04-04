@@ -54,6 +54,20 @@ You can make changes and commits but they are not attached to any branch, so the
 
 So, the ideal way is to create a new branch and commit the changes there. 
 
+git stash 
+--> saves your uncommitted changes (both staged and unstaged) and then cleans your working directory i.e nothing to commit
+
+git stash apply 
+--> brings back the uncommitted changes
+but also keeps the stash i.e this stash can be reused again
+
+git stash pop
+--> brings back the uncommitted changes
+but deletes the stash as well i.e no stash left now
+
+NOTE : 
+you need to add files again
+and then commit the changes, after git stash apply or git stash pop 
 
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
