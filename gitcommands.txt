@@ -5,12 +5,12 @@ git config --global user.email "your@email.com" --> configures your email
 
 git init --> intializes a local repo into a folder (.git folder is created)
 
-git status --> tracks changes of the local repo i.e shows files modified or deleted or added
+git status --> tracks changes of the local repo i.e shows which files are untracked, modified or staged
 
-git add . --> adds all the files of the current folder into the staging area
-git add file name --> adds the particular file into the staging area
+git add . --> selects all the files of the current folder to include in the next commit
+git add file name --> selects the particular file to include in the next commit 
 
-git commit -m "Message"  --> creates a checkpoint which can be visited again using git chekout in case something goes wrong.
+git commit -m "Message"  --> actually saves a snapshot of the staged changes or creates a checkpoint which can be visited again using git checkout in case something goes wrong.
 
 git restore --staged . --> removes all the files from the staging area
 git restore --staged filename --> removes the particular file from the staging area 
