@@ -1,0 +1,2 @@
+Exercise for git:
+Git is a version control system. Git is used by devs to manage versions of the code. 
