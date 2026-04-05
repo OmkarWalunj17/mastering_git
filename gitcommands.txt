@@ -76,8 +76,14 @@ git diff --staged (for staged changes)
 --> shows what changed across staged files
 
 git remote add origin <remote_repo_url>
+--> connects the local repo to the remote repo
+
+origin is the name of the link of the remote repo
+
+git remote -v 
+--> Output is as follows:
+origin  https://github.com/OmkarWalunj17/mastering_git.git (fetch)
+origin  https://github.com/OmkarWalunj17/mastering_git.git (push)
 
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
-
-origin refers to the link of the remote repo
