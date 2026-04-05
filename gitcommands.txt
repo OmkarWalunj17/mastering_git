@@ -72,4 +72,4 @@ and then commit the changes, after git stash apply or git stash pop
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
 
-origin refers to the link of the remote repo 
+origin refers to the link of the remote repo
