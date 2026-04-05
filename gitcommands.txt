@@ -69,6 +69,12 @@ NOTE :
 you need to add files again
 and then commit the changes, after git stash apply or git stash pop 
 
+git diff (for unstaged changes)
+--> shows what changed across unstaged files
+
+git diff --staged (for staged changes)
+--> shows what changed across staged files
+
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
 
