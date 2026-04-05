@@ -1,4 +1,4 @@
-1) ##Navigation
+1) Navigation
 cd <folder_name> 
 --> goes into the folder 
 
@@ -13,3 +13,19 @@ dir
 
 dir /a files 
 --> includes hidden files
+
+2) File and Folder Management
+mkdir folder
+--> create a folder
+
+rmdir folder
+--> delete empty folder
+
+rmdir /s folder 
+--> delete folder + contents
+
+type nul > a.txt 
+--> create empty file
+
+del file.txt 
+--> delete file
