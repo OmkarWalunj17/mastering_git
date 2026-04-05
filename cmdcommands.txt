@@ -1,0 +1,15 @@
+1) ##Navigation
+cd <folder_name> 
+--> goes into the folder 
+
+cd ..
+--> goes up one level
+
+cd \
+--> go to root 
+
+dir 
+--> list files/folders
+
+dir /a files 
+--> includes hidden files

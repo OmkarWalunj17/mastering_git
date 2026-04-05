@@ -75,6 +75,8 @@ git diff (for unstaged changes)
 git diff --staged (for staged changes)
 --> shows what changed across staged files
 
+git remote add origin <remote_repo_url>
+
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
 
