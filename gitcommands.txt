@@ -87,3 +87,19 @@ origin  https://github.com/OmkarWalunj17/mastering_git.git (push)
 
 git push
 git push -u origin main -- helps in configuring push directly using git push and not git push origin main
+
+Undoing Changes :
+git restore filename
+--> resets the file to the last committed state
+
+git restore --staged filename 
+--> removes the particular file from the staging area
+
+You committed but want to undo it:
+1. soft -- removes commit but keeps changes staged
+2. mixed -- removes commit and unstages changes 
+3. hard -- deletes commit and deletes changes permanently
+
+git reset --soft HEAD~1
+git reset HEAD~1
+git reset --hard HEAD~1
